@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+   
   },
   "author": "Arshdeep Singh",
   "license": "ISC",
@@ -19,6 +20,7 @@
     "stripe": "^12.10.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "webpack-cli": "^5.1.4"
   }
 }
