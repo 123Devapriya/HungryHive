@@ -71,7 +71,11 @@ export default function Home() {
     
      <br/>
      <br/>
+      
      <div className="container">
+      <h2  id="menu" className="className='fs-3 m-3'">Menu</h2>
+      <hr id="hr-success" style={{ height: "5px", backgroundImage: "-webkit-linear-gradient(left,rgb(0, 255, 137),rgb(0, 0, 0))" }} />
+
         {foodCat !== []
           ? foodCat.map((data) => {
               return (

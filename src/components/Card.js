@@ -73,7 +73,7 @@ export default function Card(props) {
   // totval += finalPrice;
   // console.log(totval)
   return (
-    <div>
+    <div  >
 
       <div className="card mt-3" style={{ width: "16rem", maxHeight: "360px" }}>
         <img src={props.ImgSrc} className="card-img-top" alt="..." style={{ height: "120px", objectFit: "fill" }} />
